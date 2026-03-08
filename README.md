@@ -1,5 +1,7 @@
 # Colmar Academy – Responsive Website
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=github)](https://amirabenameur3.github.io/Colmar_Academy/)
+
 ![Colmar Academy Preview](docs/colmar-academy-preview.png)
 
 ## Overview
