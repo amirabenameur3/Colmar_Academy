@@ -50,11 +50,15 @@ The challenge was to reproduce the layout and ensure proper responsiveness acros
 Colmar_Academy
 │
 ├── index.html
+├── README.md
 ├── ressources
 │   ├── css
 │   │   └── style.css
 │   ├── images
 │   └── videos
+└── docs
+    ├── colmar-academy-preview.png
+    └── colmar-academy-spec.png
 ```
 
 ## Future Improvements
