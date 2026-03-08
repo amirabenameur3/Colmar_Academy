@@ -1,6 +1,6 @@
 # Colmar Academy – Responsive Website
 
-![Colmar Academy Preview](colmar-academy-preview.png)
+![Colmar Academy Preview](docs/colmar-academy-preview.png)
 
 ## Overview
 
