@@ -1,5 +1,7 @@
 # Colmar Academy – Responsive Website
 
+![Colmar Academy Preview](colmar-academy-preview.png)
+
 ## Overview
 
 This project is a responsive website built for the **Colmar Academy** design challenge.
