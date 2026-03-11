@@ -12,11 +12,14 @@
     <!--Header-->
     <header>
         <div class="content">
-            <div class="logo">
+            <a class="logo" href="#">
                 <img src="./ressources/images/ic-logo.svg" alt="Colmar Academy Logo">
-                <strong>COLMAR</strong><span class="academy">ACADEMY</span>
-            </div>
-            <nav class="informations">
+                <span class="logo-text">
+                    <strong>COLMAR</strong><span class="academy">ACADEMY</span>
+                </span>
+            </a>
+
+            <nav class="informations" aria-label="Main navigation">
                 <ul class="nav-text">
                     <li><a href="#">On campus</a></li>
                     <li><a href="#">Online</a></li>
@@ -25,10 +28,30 @@
                 </ul>
 
                 <ul class="nav-icons">
-                    <li><a href="#" class="icon-link"><img src="./ressources/images/ic-logo.svg" alt="colmar icon"><span class="tooltip">logo</span></a></li>
-                    <li><a href="#" class="icon-link"><img src="./ressources/images/ic-on-campus.svg" alt="on campus icon"><span class="tooltip">on campus</span></a></li>
-                    <li><a href="#" class="icon-link"><img src="./ressources/images/ic-online.svg" alt="online icon"><span class="tooltip">online</span></a></li>
-                    <li><a href="#" class="icon-link"><img src="./ressources/images/ic-login.svg" alt="login icon"><span class="tooltip">sign up</span></a></li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <img src="./ressources/images/ic-logo.svg" alt="colmar icon">
+                            <span class="tooltip">logo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <img src="./ressources/images/ic-on-campus.svg" alt="on campus icon">
+                            <span class="tooltip">on campus</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <img src="./ressources/images/ic-online.svg" alt="online icon">
+                            <span class="tooltip">online</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <img src="./ressources/images/ic-login.svg" alt="login icon">
+                            <span class="tooltip">sign up</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
@@ -36,193 +59,203 @@
     </header>
     
     <!--Main-content-->
-    <div class="main_content">
+    <main class="main_content">
+
         <!--section 1-->
-        <div id="section1">
+        <section id="section1">
             <div class="image_banner">
                 <img src="./ressources/images/banner.jpg" alt="Colmar Academy banner">
             </div>
+
             <div class="content_section1">
                 <h1>Learn something <br>new everyday</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn">Start here</button>
             </div>
-        </div>
+        </section>
 
         <!--section 2-->
-        <div id="section2">
+        <section id="section2">
             <div class="content_section2_1">
                 <div class="image_container1">
                     <img src="./ressources/images/information-main.jpg" alt="Colmar Academy image main">
                 </div>
-                <h1>It doesn't hurt to keep practicing</h1>
+                <h2>It doesn't hurt to keep practicing</h2>
                 <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque.
                     Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-                <h3>Emanuel, Sr Strategist at <span id="visit_link" title="link">Hiring.com</span></h3>
+                <p class="quote-author">Emanuel, Sr Strategist at <span id="visit_link" title="link">Hiring.com</span></p>
             </div>
+
             <div class="content_section2_2">
-                <div class="block2">
+                <article class="block2">
                     <div class="image_container2">
                         <img src="./ressources/images/information-orientation.jpg" alt="information orientation">
                     </div>
                     <div class="orientation">
-                        <h2>Orientation date</h2>
+                        <h3>Orientation date</h3>
                         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
                         <a href="#">Read more</a>
                     </div>
-                </div>
-                <div class="block2">
+                </article>
+
+                <article class="block2">
                     <div class="image_container2">
                         <img src="./ressources/images/information-campus.jpg" alt="information campus">
                     </div>
                     <div class="campus">
-                        <h2>Our campus</h2>
+                        <h3>Our campus</h3>
                         <p>Find which campus is close by you</p>
                         <a href="#">Read more</a>
                     </div>  
-                </div>
-                <div class="block2 highlight">
+                </article>
+
+                <article class="block2 highlight">
                     <div class="image_container2">
                         <img src="./ressources/images/information-guest-lecture.jpg" alt="information guest lecture">
                     </div>
                     <div class="guest_lecture">
-                        <h2>Our guest lecture</h2>
+                        <h3>Our guest lecture</h3>
                         <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                         <a href="#">Read more</a>
                     </div>
-                </div>
+                </article>
+
             </div>
-        </div>
+        </section>
 
         <!--section 3-->
-        <div id="section3">
+        <section id="section3">
 
-            <h1>Start learning</h1>
+            <h2>Start learning</h2>
+
             <div class="content_section3">
                 <!--Desktop version-->
                 <div class="content_desktop">
-                    <div class="card a">    
+                    <article class="card a">    
                         <img src="./ressources/images/course-software.jpg" alt="Software engineering image">
-                        <h2>Software engineering</h2>
-                        <h3>COURSES</h3>
+                        <h3>Software engineering</h3>
+                        <p class="courses-label">COURSES</p>
                         <p class="description">Web Development, Mobile Development, iOT, APIs</p>
-                    </div>
+                    </article>
                     
-                    <div class="card b">
+                    <article class="card b">
                         <img src="./ressources/images/course-data.jpg" alt="Data science image">
-                        <h2>Data</h2>
-                        <h3>COURSES</h3>
+                        <h3>Data</h3>
+                        <p class="courses-label">COURSES</p>
                         <p class="description">Data Science, Big Data, SQL, Data Visualization</p>
-                    </div>
+                    </article>
 
-                    <div class="card c">
+                    <article class="card c">
                         <img src="./ressources/images/course-computer-art.jpg" alt="Computer art image">
-                        <h2>Computer art</h2>
-                        <h3>COURSES</h3>
+                        <h3>Computer art</h3>
+                        <p class="courses-label">COURSES</p>
                         <p class="description">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-                    </div>
+                    </article>
 
-                    <div class="card d">
+                    <article class="card d">
                         <img src="./ressources/images/course-business.jpg" alt="Chess image">
-                        <h2>Business</h2>
-                        <h3>COURSES</h3>
+                        <h3>Business</h3>
+                        <p class="courses-label">COURSES</p>
                         <p class="description">Product Development, Business Development, Startup</p>
-                    </div>
-                    
-                    <div class="card e">
+                    </article>
+
+                    <article class="card e">
                         <img src="./ressources/images/course-design.jpg" alt="Design image">
-                        <h2>Design</h2>
-                        <h3>COURSES</h3>
+                        <h3>Design</h3>
+                        <p class="courses-label">COURSES</p>
                         <p class="description">User Experience Design, User Research, Visual Design</p>
-                    </div>
-                    
-                    <div class="card f">
+                    </article>
+
+                    <article class="card f">
                         <img src="./ressources/images/course-marketing.jpg" alt="Marketing image">
-                        <h2>Marketing</h2>
-                        <h3>COURSES</h3>
+                        <h3>Marketing</h3>
+                        <p class="courses-label">COURSES</p>
                         <p class="description">Analytics, Content Marketing, Mobile Marketing</p>
-                    </div>
+                    </article>
                 </div>
 
                 <!--Mobile version-->
                 <div class="content_mobile">
                     <div class="square">    
-                        <h2>Software engineering</h2>
+                        <h3>Software engineering</h3>
                     </div>
                     
                     <div class="square">    
-                        <h2>Data science</h2>
+                        <h3>Data science</h3>
                     </div>
                     
                     <div class="square">    
-                        <h2>Computer art</h2>
+                        <h3>Computer art</h3>
                     </div>
                     
                     <div class="square">    
-                        <h2>Business</h2>
+                        <h3>Business</h3>
                     </div>
                     
                     <div class="square">    
-                        <h2>Design</h2>
+                        <h3>Design</h3>
                     </div>
                     
                     <div class="square">    
-                        <h2>Marketing</h2>
+                        <h3>Marketing</h3>
                     </div>
                 </div>
 
             </div>
-        </div>
+        </section>
 
         <!--section 4-->
-        <div id="section4">
-            <h1>Thesis exhibit</h1>
+        <section id="section4">
+            <h2>Thesis exhibit</h2>
+
             <div class="content_section4">  
                 <div class="content_section4_1">
                     <div class="video_container">
                         <video src="./ressources/videos/thesis.mp4" controls poster="./ressources/images/future-city.png">video not supported</video>
                     </div>
-                    <h2>Reimagine urban</h2>
+                    <h3>Reimagine urban</h3>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque.
                     Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                 </div>
+
                 <div class="content_section4_2">
-                    <div class="block4 highlight">
+                    <article class="block4 highlight">
                         <div class="image_container4">
                             <img src="./ressources/images/thesis-fisma.jpg" alt="thesis fisma">
                         </div>
                         <div class="text_container">
-                            <h2>Fisma: Design and Prototype</h2>
+                            <h3>Fisma: Design and Prototype</h3>
                             <p>Designer showcase of new prototype product</p>
                         </div>
-                    </div>
-                    <div class="block4">
+                    </article>
+                    <article class="block4">
                         <div class="image_container4">
                             <img src="./ressources/images/thesis-now-and-then.jpg" alt="New York city">
                         </div>
                         <div class="text_container">
-                            <h2>Now and then</h2>
+                            <h3>Now and then</h3>
                             <p>Research study about New York</p>
                         </div>  
-                    </div>
+                    </article>
                 </div>
+            </div>
+        </section>
+    </main>
+    
+    <!--Footer-->
+    <footer>
+        <div class="content">
+            <div class="footer_content">
+                <i id="copyright-icon" class="fas fa-copyright fa"></i>
+                <span class="copyright">2016 Colmar Academy. All rights reserved</span>
+            </div>
+            
+            <div class="footer_nav">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
             </div>
         </div>
-
-        <!--Footer-->
-        <footer>
-            <div class="content">
-                <div class="footer_content">
-                    <i id="copyright-icon" class="fas fa-copyright fa"></i>
-                    <span class="copyright">2016 Colmar Academy. All rights reserved</span>
-                </div>
-                <div class="footer_nav">
-                    <a href="#">Terms</a>
-                    <a href="#">Privacy</a>
-                </div>
-            </div>
-        </footer>
-
-    </div>
+    </footer>
+ 
 </body>
 </html>
