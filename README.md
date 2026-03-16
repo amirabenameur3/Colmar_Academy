@@ -1,76 +1,165 @@
-# Colmar Academy – Responsive Website
+<p align="center">
+  <img src="./docs/colmar-academy-preview.png" width="900" alt="Colmar Academy preview">
+</p>
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=github)](https://amirabenameur3.github.io/Colmar_Academy/)
+<h1 align="center">🎓 Colmar Academy</h1>
 
-![Colmar Academy Preview](docs/colmar-academy-preview.png)
+<p align="center">
+  A responsive educational website built as a capstone project to apply HTML and CSS skills in a real-world layout scenario.
+</p>
 
-## Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Flexbox-Layout-blue">
+  <img src="https://img.shields.io/badge/Responsive-Design-38bdf8">
+  <img src="https://img.shields.io/badge/GitHub-Project-181717?logo=github">
+  <img src="https://img.shields.io/badge/Status-Portfolio%20Project-purple">
+</p>
 
-This project is a responsive website built for the **Colmar Academy** design challenge.
-The goal was to translate a **desktop and mobile design specification** into a fully functional webpage using HTML and CSS.
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/amirabenameur3/Colmar_Academy">
+  <img src="https://img.shields.io/github/last-commit/amirabenameur3/Colmar_Academy">
+</p>
 
-The project focuses on building structured layouts, responsive behavior, and clean styling without using frameworks.
+<p align="center">
+  <a href="https://amirabenameur3.github.io/Colmar_Academy/">
+  <img src="https://img.shields.io/badge/🌐-Live%20Demo-38bdf8?style=for-the-badge">
+  </a>
+</p>
 
-## Live Demo
+---
 
-https://amirabenameur3.github.io/Colmar_Academy/
+## 📖 Project Overview
 
-## Design Specification
+This project is a **responsive landing page for an educational institution called Colmar Academy**.
 
-The website was developed from a provided design spec including **desktop and mobile wireframes**.
-The challenge was to reproduce the layout and ensure proper responsiveness across different screen sizes.
+It was developed as the **final capstone project** of the Codecademy “Build a Website with HTML, CSS, and GitHub Pages” path, with the goal of applying all previously learned concepts to build a complete website from scratch.
 
-## Technologies Used
+Unlike earlier guided projects, this one required making **independent design decisions**, including layout structure, responsiveness, and overall styling.
 
-* HTML5
-* CSS3
-* Flexbox
-* CSS Grid
-* Responsive Design
-* Git & GitHub
+The final result is a **fully responsive website** that adapts seamlessly across desktop and mobile devices.
 
-## Features
+---
 
-* Responsive layout for **desktop, tablet, and mobile**
-* Flexbox and Grid for layout management
-* Responsive navigation with icon-based mobile menu
-* Course cards and informational blocks
-* Embedded video section
-* Clean visual hierarchy and consistent spacing
+## ✨ Features
 
-## What I Practiced
+- Fully responsive layout (desktop & mobile)
+- Flexbox-based structure
+- Media queries for adaptive design
+- Multi-section landing page
+- Embedded media (images & video)
+- Clean and structured UI
 
-* Translating a design specification into real code
-* Structuring HTML using semantic sections
-* Building responsive layouts using media queries
-* Organizing CSS for maintainability
-* Deploying a project using GitHub Pages
+---
 
-## Project Structure
+## 🧰 Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **Flexbox**
+- **Media Queries**
+- **Git & GitHub Pages**
+
+---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="./docs/demo.gif" width="900" alt="Tea Cozy website demo">
+</p>
+
+---
+
+## 📸 Website Sections
+
+### Header & Navigation
+Responsive navigation adapting between desktop and mobile.
+
+### Hero Section
+Main introduction to the academy with strong visual emphasis.
+
+### Courses Section
+Highlights available learning programs.
+
+### Campus Information
+Displays details about the academy environment.
+
+### Thesis Exhibit
+Includes video content and supporting descriptions.
+
+### Footer
+Contains branding and additional information.
+
+---
+
+## 📁 Project Structure
 
 ```
 Colmar_Academy
 │
 ├── index.html
 ├── README.md
-├── ressources
-│   ├── css
-│   │   └── style.css
-│   ├── images
-│   └── videos
-└── docs
-    ├── colmar-academy-preview.png
-    └── colmar-academy-spec.png
+├── favicon-Colmar-Academy.ico
+│
+├── docs
+│   ├── colmar-academy-preview.png
+│   ├── colmar-academy-spec.png
+│   └── demo.gif
+│
+└── resources
+    ├── css
+    │   └── styles.css
+    │
+    ├── images
+    │
+    └── videos
 ```
 
-## Future Improvements
+---
 
-* Improve accessibility (ARIA attributes and semantic enhancements)
-* Add subtle UI animations and interactions
-* Optimize images and performance
-* Refactor CSS for scalability
+## 🧠 What I Learned
 
-## Author
+While working on this project I developed:
 
-Amira Ben Ameur
-GitHub: https://github.com/amirabenameur3
+- Strong understanding of **responsive web design**
+- Experience with **media queries and breakpoints**
+- Ability to translate **wireframes into real layouts**
+- Improved CSS structuring and layout techniques
+- Better design decision-making without strict guidance
+
+---
+
+## 🚀 Future Improvements
+
+- Improve accessibility (ARIA, semantic elements)
+- Add animations and transitions
+- Optimize images and performance
+- Enhance mobile UX further
+
+---
+
+## 👩‍💻 Author
+
+**Amira Ben Ameur**
+
+PhD researcher in Structural & Transportation Engineering  
+Front-End Development learner  
+
+GitHub  
+https://github.com/amirabenameur3
+
+---
+
+## 📌 Disclaimer
+
+This website represents a **fictional educational institution website** created for **learning and portfolio purposes**.
+
+It does **not represent a real company or brand**.
+
+---
+
+## ⭐ If you like the project
+
+Consider giving the repository a **star on GitHub** ⭐
+
